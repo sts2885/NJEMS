@@ -12,13 +12,3 @@ const count = 5;
 
 logger.log('count: %d', count);
 logger.error('count: ' + count);
-
-
-
-
-
-
-
-
-
-
