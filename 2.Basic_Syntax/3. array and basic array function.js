@@ -127,7 +127,7 @@ let pass = persons.filter(function(person){
 
 for(var i = 0; i<pass.length; i++){
     console.log(pass[i]);
-
+};
 
 
 
@@ -184,7 +184,7 @@ for (var i =0; i< userList2.length; i++){
 // sum 이나 average 만들때 보통 사용.
 // map + reduce = 교환법칙 적용해야 함.
 
-let points = [40,100,1,5,25,10];
+//let points = [40,100,1,5,25,10];
 let sum = points.reduce(function (total, currentvalue) {
     return total + currentvalue;
 }, 0);
@@ -310,7 +310,3 @@ let [
 
 //중요한건 데이터 구조 형태대로 호출하는 거인듯
 //이거 되게 잘쓸거 같은데?
-
-
-
-
