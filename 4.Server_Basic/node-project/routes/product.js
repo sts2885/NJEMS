@@ -22,3 +22,6 @@ router.put('/update', function(req,res){
 router.delete('/delete', function(req,res){
   res.send('delete product');
 });
+
+
+module.exports = router;

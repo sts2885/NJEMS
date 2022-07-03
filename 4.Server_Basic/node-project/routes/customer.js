@@ -13,7 +13,7 @@ router.get('/', function(req,res){
   res.send('customer 라우트 루트');
 });
 
-
+//브라우저에 직접 치는걸로는 테스트 불가
 router.post('/insert', function(req, res) {
   res.send('/customer/insert 라우트')
 });

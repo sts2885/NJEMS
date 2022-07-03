@@ -14,15 +14,15 @@ app.use(express.json({
 }));
 
 /*
+*/
 //와... 진짜 짧다.
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
-*/
 
-app.listen(port, ()=> [
+app.listen(port, ()=> {
   console.log(`서버 실행됨 http://localhost:${port}`)
-])
+});
 
 app.use('/customer', customerRoute);
 app.use('/product', productRoute);
